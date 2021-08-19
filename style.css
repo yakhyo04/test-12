@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-color: gold;
+}
+.header__list{
+    list-style-type: none;
+    display: flex;
+}
+.header__item{
+    margin-right: 25px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.header__item:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.header__item:nth-child(5){
+    margin-right: 0;
+}
+.header__link{
+    font-size: 20px;
+    text-decoration: none;
+}
+.header__nav{
+    padding: 15px 0;   
+}
+.section-1{
+    height: 100vh;
+    background-color: teal;
+}
+.section-2{
+    height: 100vh;
+    background-color: thistle;
+}
+.section-3{
+    height: 100vh;
+    background-color: tomato;
+}
+.section-4{
+    height: 100vh;
+    background-color: turquoise;
+}
+.section-5{
+    height: 100vh;
+    background-color: violet;
+}
+
+.section-1__sub-title{
+    font-size: 38px;
+    margin: 25px 0;
+}
+.section-1__text{
+    width: 450px;
+}
+.section-1__text::before{
+    content: "hello";
+    background-color: violet;
+}
+.section-1__text::after{
+    content: "hello";
+    background-color: turquoise;
+}
+.custom-radio{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 3px solid tomato;
+    border-radius: 50%;
+}
+.radio:checked + .custom-radio{
+    background-color: yellow;
+    display: inline-block;
+    background-color: tomato;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.img-1{
+    width: 400px;
+    max-width: 100%;
+}
